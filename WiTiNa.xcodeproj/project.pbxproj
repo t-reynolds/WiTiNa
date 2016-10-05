@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9207F02F1DA5752400C0F88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F02E1DA5752400C0F88B /* AppDelegate.swift */; };
+		9207F0311DA5752400C0F88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F0301DA5752400C0F88B /* ViewController.swift */; };
+		9207F0341DA5752400C0F88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9207F0321DA5752400C0F88B /* Main.storyboard */; };
+		9207F0361DA5752400C0F88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9207F0351DA5752400C0F88B /* Assets.xcassets */; };
+		9207F0391DA5752400C0F88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9207F0371DA5752400C0F88B /* LaunchScreen.storyboard */; };
+		9207F0441DA5752500C0F88B /* WiTiNaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F0431DA5752500C0F88B /* WiTiNaTests.swift */; };
+		9207F04F1DA5752500C0F88B /* WiTiNaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F04E1DA5752500C0F88B /* WiTiNaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9207F0401DA5752500C0F88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9207F0231DA5752400C0F88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9207F02A1DA5752400C0F88B;
+			remoteInfo = WiTiNa;
+		};
+		9207F04B1DA5752500C0F88B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9207F0231DA5752400C0F88B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9207F02A1DA5752400C0F88B;
+			remoteInfo = WiTiNa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9207F02B1DA5752400C0F88B /* WiTiNa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiTiNa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9207F02E1DA5752400C0F88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9207F0301DA5752400C0F88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9207F0331DA5752400C0F88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9207F0351DA5752400C0F88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9207F0381DA5752400C0F88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9207F03A1DA5752400C0F88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9207F03F1DA5752500C0F88B /* WiTiNaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiTiNaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9207F0431DA5752500C0F88B /* WiTiNaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiTiNaTests.swift; sourceTree = "<group>"; };
+		9207F0451DA5752500C0F88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9207F04A1DA5752500C0F88B /* WiTiNaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiTiNaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9207F04E1DA5752500C0F88B /* WiTiNaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiTiNaUITests.swift; sourceTree = "<group>"; };
+		9207F0501DA5752500C0F88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9207F0281DA5752400C0F88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9207F03C1DA5752500C0F88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9207F0471DA5752500C0F88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9207F0221DA5752400C0F88B = {
+			isa = PBXGroup;
+			children = (
+				9207F02D1DA5752400C0F88B /* WiTiNa */,
+				9207F0421DA5752500C0F88B /* WiTiNaTests */,
+				9207F04D1DA5752500C0F88B /* WiTiNaUITests */,
+				9207F02C1DA5752400C0F88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9207F02C1DA5752400C0F88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9207F02B1DA5752400C0F88B /* WiTiNa.app */,
+				9207F03F1DA5752500C0F88B /* WiTiNaTests.xctest */,
+				9207F04A1DA5752500C0F88B /* WiTiNaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9207F02D1DA5752400C0F88B /* WiTiNa */ = {
+			isa = PBXGroup;
+			children = (
+				9207F02E1DA5752400C0F88B /* AppDelegate.swift */,
+				9207F0301DA5752400C0F88B /* ViewController.swift */,
+				9207F0321DA5752400C0F88B /* Main.storyboard */,
+				9207F0351DA5752400C0F88B /* Assets.xcassets */,
+				9207F0371DA5752400C0F88B /* LaunchScreen.storyboard */,
+				9207F03A1DA5752400C0F88B /* Info.plist */,
+			);
+			path = WiTiNa;
+			sourceTree = "<group>";
+		};
+		9207F0421DA5752500C0F88B /* WiTiNaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9207F0431DA5752500C0F88B /* WiTiNaTests.swift */,
+				9207F0451DA5752500C0F88B /* Info.plist */,
+			);
+			path = WiTiNaTests;
+			sourceTree = "<group>";
+		};
+		9207F04D1DA5752500C0F88B /* WiTiNaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9207F04E1DA5752500C0F88B /* WiTiNaUITests.swift */,
+				9207F0501DA5752500C0F88B /* Info.plist */,
+			);
+			path = WiTiNaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9207F02A1DA5752400C0F88B /* WiTiNa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9207F0531DA5752500C0F88B /* Build configuration list for PBXNativeTarget "WiTiNa" */;
+			buildPhases = (
+				9207F0271DA5752400C0F88B /* Sources */,
+				9207F0281DA5752400C0F88B /* Frameworks */,
+				9207F0291DA5752400C0F88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiTiNa;
+			productName = WiTiNa;
+			productReference = 9207F02B1DA5752400C0F88B /* WiTiNa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9207F03E1DA5752500C0F88B /* WiTiNaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9207F0561DA5752500C0F88B /* Build configuration list for PBXNativeTarget "WiTiNaTests" */;
+			buildPhases = (
+				9207F03B1DA5752500C0F88B /* Sources */,
+				9207F03C1DA5752500C0F88B /* Frameworks */,
+				9207F03D1DA5752500C0F88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9207F0411DA5752500C0F88B /* PBXTargetDependency */,
+			);
+			name = WiTiNaTests;
+			productName = WiTiNaTests;
+			productReference = 9207F03F1DA5752500C0F88B /* WiTiNaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9207F0491DA5752500C0F88B /* WiTiNaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9207F0591DA5752500C0F88B /* Build configuration list for PBXNativeTarget "WiTiNaUITests" */;
+			buildPhases = (
+				9207F0461DA5752500C0F88B /* Sources */,
+				9207F0471DA5752500C0F88B /* Frameworks */,
+				9207F0481DA5752500C0F88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9207F04C1DA5752500C0F88B /* PBXTargetDependency */,
+			);
+			name = WiTiNaUITests;
+			productName = WiTiNaUITests;
+			productReference = 9207F04A1DA5752500C0F88B /* WiTiNaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9207F0231DA5752400C0F88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "timothy reynolds";
+				TargetAttributes = {
+					9207F02A1DA5752400C0F88B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9207F03E1DA5752500C0F88B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9207F02A1DA5752400C0F88B;
+					};
+					9207F0491DA5752500C0F88B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9207F02A1DA5752400C0F88B;
+					};
+				};
+			};
+			buildConfigurationList = 9207F0261DA5752400C0F88B /* Build configuration list for PBXProject "WiTiNa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9207F0221DA5752400C0F88B;
+			productRefGroup = 9207F02C1DA5752400C0F88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9207F02A1DA5752400C0F88B /* WiTiNa */,
+				9207F03E1DA5752500C0F88B /* WiTiNaTests */,
+				9207F0491DA5752500C0F88B /* WiTiNaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9207F0291DA5752400C0F88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9207F0391DA5752400C0F88B /* LaunchScreen.storyboard in Resources */,
+				9207F0361DA5752400C0F88B /* Assets.xcassets in Resources */,
+				9207F0341DA5752400C0F88B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9207F03D1DA5752500C0F88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9207F0481DA5752500C0F88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9207F0271DA5752400C0F88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9207F0311DA5752400C0F88B /* ViewController.swift in Sources */,
+				9207F02F1DA5752400C0F88B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9207F03B1DA5752500C0F88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9207F0441DA5752500C0F88B /* WiTiNaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9207F0461DA5752500C0F88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9207F04F1DA5752500C0F88B /* WiTiNaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9207F0411DA5752500C0F88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9207F02A1DA5752400C0F88B /* WiTiNa */;
+			targetProxy = 9207F0401DA5752500C0F88B /* PBXContainerItemProxy */;
+		};
+		9207F04C1DA5752500C0F88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9207F02A1DA5752400C0F88B /* WiTiNa */;
+			targetProxy = 9207F04B1DA5752500C0F88B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9207F0321DA5752400C0F88B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9207F0331DA5752400C0F88B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9207F0371DA5752400C0F88B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9207F0381DA5752400C0F88B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9207F0511DA5752500C0F88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9207F0521DA5752500C0F88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9207F0541DA5752500C0F88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WiTiNa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeneralSolutions.WiTiNa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9207F0551DA5752500C0F88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WiTiNa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeneralSolutions.WiTiNa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9207F0571DA5752500C0F88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WiTiNaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeneralSolutions.WiTiNaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiTiNa.app/WiTiNa";
+			};
+			name = Debug;
+		};
+		9207F0581DA5752500C0F88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WiTiNaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeneralSolutions.WiTiNaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiTiNa.app/WiTiNa";
+			};
+			name = Release;
+		};
+		9207F05A1DA5752500C0F88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WiTiNaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeneralSolutions.WiTiNaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WiTiNa;
+			};
+			name = Debug;
+		};
+		9207F05B1DA5752500C0F88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WiTiNaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeneralSolutions.WiTiNaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WiTiNa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9207F0261DA5752400C0F88B /* Build configuration list for PBXProject "WiTiNa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9207F0511DA5752500C0F88B /* Debug */,
+				9207F0521DA5752500C0F88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9207F0531DA5752500C0F88B /* Build configuration list for PBXNativeTarget "WiTiNa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9207F0541DA5752500C0F88B /* Debug */,
+				9207F0551DA5752500C0F88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9207F0561DA5752500C0F88B /* Build configuration list for PBXNativeTarget "WiTiNaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9207F0571DA5752500C0F88B /* Debug */,
+				9207F0581DA5752500C0F88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9207F0591DA5752500C0F88B /* Build configuration list for PBXNativeTarget "WiTiNaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9207F05A1DA5752500C0F88B /* Debug */,
+				9207F05B1DA5752500C0F88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9207F0231DA5752400C0F88B /* Project object */;
+}
