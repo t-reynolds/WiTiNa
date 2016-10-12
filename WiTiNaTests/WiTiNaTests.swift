@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import WiTiNa
+//@testable import WiTiNa
 
 class WiTiNaTests: XCTestCase {
     
