@@ -14,6 +14,10 @@
 		9207F0391DA5752400C0F88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9207F0371DA5752400C0F88B /* LaunchScreen.storyboard */; };
 		9207F0441DA5752500C0F88B /* WiTiNaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F0431DA5752500C0F88B /* WiTiNaTests.swift */; };
 		9207F04F1DA5752500C0F88B /* WiTiNaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207F04E1DA5752500C0F88B /* WiTiNaUITests.swift */; };
+		924B8EF41DF772A8002900EC /* WebiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B8EF31DF772A7002900EC /* WebiOS.swift */; };
+		925E94D01DB3F22C00F3A15E /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E94CF1DB3F22C00F3A15E /* DrawViewController.swift */; };
+		92E652EA1E085A5300099F23 /* WolframViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E652E91E085A5300099F23 /* WolframViewController.swift */; };
+		92E652EC1E09A87900099F23 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E652EB1E09A87700099F23 /* CellViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9207F04A1DA5752500C0F88B /* WiTiNaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiTiNaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9207F04E1DA5752500C0F88B /* WiTiNaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiTiNaUITests.swift; sourceTree = "<group>"; };
 		9207F0501DA5752500C0F88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924B8EF31DF772A7002900EC /* WebiOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebiOS.swift; sourceTree = "<group>"; };
+		925E94CF1DB3F22C00F3A15E /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		92E652E91E085A5300099F23 /* WolframViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WolframViewController.swift; sourceTree = "<group>"; };
+		92E652EB1E09A87700099F23 /* CellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				9207F02E1DA5752400C0F88B /* AppDelegate.swift */,
-				9207F0301DA5752400C0F88B /* ViewController.swift */,
-				9207F0321DA5752400C0F88B /* Main.storyboard */,
+				925E94D41DB6899B00F3A15E /* Objects */,
+				925E94D11DB3F5F200F3A15E /* Controllers */,
 				9207F0351DA5752400C0F88B /* Assets.xcassets */,
 				9207F0371DA5752400C0F88B /* LaunchScreen.storyboard */,
 				9207F03A1DA5752400C0F88B /* Info.plist */,
@@ -123,6 +131,26 @@
 				9207F0501DA5752500C0F88B /* Info.plist */,
 			);
 			path = WiTiNaUITests;
+			sourceTree = "<group>";
+		};
+		925E94D11DB3F5F200F3A15E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9207F0301DA5752400C0F88B /* ViewController.swift */,
+				925E94CF1DB3F22C00F3A15E /* DrawViewController.swift */,
+				9207F0321DA5752400C0F88B /* Main.storyboard */,
+				92E652EB1E09A87700099F23 /* CellViewController.swift */,
+				92E652E91E085A5300099F23 /* WolframViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		925E94D41DB6899B00F3A15E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				924B8EF31DF772A7002900EC /* WebiOS.swift */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,18 +222,18 @@
 					9207F02A1DA5752400C0F88B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = RN9KAS9X65;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					9207F03E1DA5752500C0F88B = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9207F02A1DA5752400C0F88B;
 					};
 					9207F0491DA5752500C0F88B = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9207F02A1DA5752400C0F88B;
 					};
@@ -263,7 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E652EC1E09A87900099F23 /* CellViewController.swift in Sources */,
+				924B8EF41DF772A8002900EC /* WebiOS.swift in Sources */,
 				9207F0311DA5752400C0F88B /* ViewController.swift in Sources */,
+				925E94D01DB3F22C00F3A15E /* DrawViewController.swift in Sources */,
+				92E652EA1E085A5300099F23 /* WolframViewController.swift in Sources */,
 				9207F02F1DA5752400C0F88B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
