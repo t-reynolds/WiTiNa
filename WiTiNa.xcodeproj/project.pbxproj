@@ -17,7 +17,7 @@
 		924B8EF41DF772A8002900EC /* WebiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924B8EF31DF772A7002900EC /* WebiOS.swift */; };
 		925E94D01DB3F22C00F3A15E /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E94CF1DB3F22C00F3A15E /* DrawViewController.swift */; };
 		92E652EA1E085A5300099F23 /* WolframViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E652E91E085A5300099F23 /* WolframViewController.swift */; };
-		92E652EC1E09A87900099F23 /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E652EB1E09A87700099F23 /* CellViewController.swift */; };
+		92E652EC1E09A87900099F23 /* WolframViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E652EB1E09A87700099F23 /* WolframViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		924B8EF31DF772A7002900EC /* WebiOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebiOS.swift; sourceTree = "<group>"; };
 		925E94CF1DB3F22C00F3A15E /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		92E652E91E085A5300099F23 /* WolframViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WolframViewController.swift; sourceTree = "<group>"; };
-		92E652EB1E09A87700099F23 /* CellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
+		92E652EB1E09A87700099F23 /* WolframViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WolframViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 				9207F0301DA5752400C0F88B /* ViewController.swift */,
 				925E94CF1DB3F22C00F3A15E /* DrawViewController.swift */,
 				9207F0321DA5752400C0F88B /* Main.storyboard */,
-				92E652EB1E09A87700099F23 /* CellViewController.swift */,
+				92E652EB1E09A87700099F23 /* WolframViewCell.swift */,
 				92E652E91E085A5300099F23 /* WolframViewController.swift */,
 			);
 			name = Controllers;
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E652EC1E09A87900099F23 /* CellViewController.swift in Sources */,
+				92E652EC1E09A87900099F23 /* WolframViewCell.swift in Sources */,
 				924B8EF41DF772A8002900EC /* WebiOS.swift in Sources */,
 				9207F0311DA5752400C0F88B /* ViewController.swift in Sources */,
 				925E94D01DB3F22C00F3A15E /* DrawViewController.swift in Sources */,

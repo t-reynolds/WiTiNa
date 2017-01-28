@@ -21,7 +21,11 @@ class WebiOS : NSObject, XMLParserDelegate {
     var bl = false
     var parseBool = false
     var plot = ""
+    var decimalApprox = ""
+    var result = ""
     var plotExists = false
+    var resultExists = false
+    var decimalExists = false
     var img_data : Data?
     override init(){
         print("I, WebiOS, exist")
@@ -151,50 +155,72 @@ class WebiOS : NSObject, XMLParserDelegate {
     }
 
     
-    
+    // PARSE OUT DECIMAL APPROXIMATION, RESULT, PLOT FOR NOW
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String])
     {
         print(elementName)
         if (elementName as NSString).isEqual(to: "pod")
         {
             
-           // print("attributeDict, first if: \(attributeDict["title"])")
-            //print( "attributeDict keys: \(attributeDict.keys)")
+            print("____________attributeDictTOP_______________")
+            print( "attributeDict keys: \(attributeDict.keys)")
+            print("____________attributeDictBOT_______________")
             if(attributeDict["title"] == "Plot" || attributeDict["title"] == "Plots") {
                 self.plotExists = true
                 print("final if")
             }
             if(attributeDict["title"] == "Decimal approximation") {
-                
+                self.decimalExists = true
             }
             if(attributeDict["title"] == "Result" ) {
-                
+                self.resultExists = true
             }
         }
-        else if(self.plotExists == true && (elementName as NSString).isEqual(to: "img")){
+        if(self.plotExists == true && (elementName as NSString).isEqual(to: "img")){
             print("\(elementName) found")
             plot = (attributeDict["src"] as String?)!
-             print("attributeDict keys: \(attributeDict.keys)")
+            print("____________img_attribute keys_______________")
+            print( "attributeDict keys: \(attributeDict.keys)")
+            print("____________attributeDictBOT_______________")
+            print("attributeDict img_src: \(plot)")
+            self.parseBool = true
+        }
+        if(self.decimalExists == true){
+            print("decimalExists elementName : \(elementName)")
+        }
+        if(self.decimalExists == true && (elementName as NSString).isEqual(to: "plaintext")){
+            print("\(elementName) found")
+            print("____________decimal plaintext keys_______________")
+            print( "attributeDict keys: \(attributeDict.keys)")
+            print("____________attributeDictBOT_______________")
+            //plot = (attributeDict[""] as String?)!
+            //print("attributeDict img_src: \(plot)")
+            self.parseBool = true
+        }
+        
+        if(self.resultExists == true && (elementName as NSString).isEqual(to: "plaintext")){
+            print("\(elementName) found")
+            result = (attributeDict["src"] as String?)!
+            print("____________result exists keys_______________")
+            print( "attributeDict keys: \(attributeDict.keys)")
+            print("____________attributeDictBOT_______________")
             print("attributeDict img_src: \(plot)")
             self.parseBool = true
         }
         
-        else{
-            //print(self.bl)
-           // print(elementName)
-        }
     }
     func parser(_ parser: XMLParser, foundCharacters string: String) {
-        if self.plotExists == true && self.parseBool == true{
+        if self.decimalExists == true{
+            decimalApprox += string
             element += string
         }
     }
 
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?){
-        if (self.parseBool == true && self.plotExists == true && (elementName as NSString).isEqual(to: "img") ){
+        if (self.parseBool == true && self.decimalExists == true && (elementName as NSString).isEqual(to: "plaintext") ){
             print("element: \(self.element)")
             self.bl = false
-            self.parseBool = false
+            //self.decimalExists = false
             parser.delegate = nil
             
             
