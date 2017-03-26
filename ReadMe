@@ -1,0 +1,10 @@
+WiTiNa Application
+- Swift mobile app
+- Works by using an object that handles all web communication
+- Takes photo in the scale of 3x1
+- Neural Net currently only accepts equations of 3 symbols of the structure: (0-9)(+-*/)(0-9)
+- Also possible to draw your own equation in the app
+- Also possible to type in your equation of any size
+PURPOSE:
+Sends your equation, per your request, to Wolfram Alpha to recieve an extremely helpful 
+drawn out solution of your particular problem, displayed in resizable format on your IPhone screen. 
